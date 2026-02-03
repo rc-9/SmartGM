@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <img src="utils/z3.png" width="400">
+  <img src="utils/headerimage2.png" width="400">
 </p>
 
 <!-- TABLE OF CONTENTS -->
