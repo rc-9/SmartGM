@@ -1,21 +1,21 @@
 [![Issues][issues-shield]][issues-url]
 
-
-<h1 align="center">NBA Lineup Evaluator</h1>
+<!--  <img src="utils/headerimage2.png" width="400"> -->
+ 
+<h1 align="center">SmartGM</h1>
+<h3 align="center">Basketball Operations Intelligence Platform</h3>
   <p align="center">
-    University of Denver - Data Science Capstone
-    <br />
     Romith Challa
     <br />
     <br />
-    <a href="https://github.com/rc-9/NBA_Lineup_Evaluator">View Repo</a>
+    <a href="https://github.com/rc-9/SmartGM/issues">Report Bug</a>
     ·
-    <a href="https://github.com/rc-9/NBA_Lineup_Evaluator/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/rc-9/NBA_Lineup_Evaluator/issues">Request Feature</a><br />
-    <a href="[https://ibb.co/kyXNGY0](https://github.com/rc-9/NBA_Lineup_Evaluator/blob/master/z3.png)"><img src="https://github.com/rc-9/NBA_Lineup_Evaluator/blob/master/z3.png" width="275" height="250" alt="z3" border="" /></a><br />
+    <a href="https://github.com/rc-9/SmartGM/issues">Request Feature</a><br />
   </p>
 </div>
+
+
+ <img src="utils/z3.png" width="400">
 
 
 <!-- TABLE OF CONTENTS -->
@@ -23,18 +23,34 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#project-overview">Project Overview</a>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
 
-## About The Project
+## Project Overview
 
-<br />
-Analytics has revolutionized the world of sports, with teams and their fans alike in constant pursuit of metrics to quantify player performances in new and insightful ways. This project aims to take advantage of NBA’s publicly available stats-API, in order to cluster players based on their specific contribution to a team’s offense and defense, in lieu of the outdated traditional position system. These new “sub-positions” are used in tandem with lineup data, in order to determine which combinations of players leads to “winning basketball”. This tool can be invaluable to any front-office or coaching staff as a data-driven guide for roster/lineup decisions.
+Analytics has transformed sports, with teams and fans constantly seeking new ways to quantify player impact. SmartGM is an end-to-end sports analytics pipeline that extracts and validates multi-source tracking data, engineers novel performance metrics, and executes unsupervised clustering to redefine traditional player positions using modern on-court archetypes. These refined “sub-positions” are then combined with lineup data to identify which player combinations drive success on the court. The result is an ML-powered decision-support tool that helps coaches optimize lineups, assists scouts in forecasting player development, and supports front offices in evaluating roster construction.
+
+<br/>
+
+![Pipeline](utils/pipeline.png)
+<br/>
+<br/>
+
+#### Interactive Web-App Snapshots:
+
+
+![Webapp](utils/webapp.png)
+
+<br/>
+
+![giannis](utils/giannis.png)
+
+
+<br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -43,35 +59,46 @@ Analytics has revolutionized the world of sports, with teams and their fans alik
 ## Usage
 <br/>
 
-1. ```1_compiler.ipynb```: This notebook will employ webscraping techniques to retrieve player statistics and lineup data from NBA's stats-API. This information will then be filtered, compiled and outputted into a master CSV for the next stage of the project pipeline.
+Lineup Evaluator Tool:
+
+- ```1_compiler.ipynb```: Scrapes player statistics and lineup data from multiple sources, then filters, compiles, and exports it for the next stage of the pipeline.
 <br/>
 
-2. ```2_processor.ipynb```: This notebook will process the retrieved NBA datasets through a series of cleaning and wrangling stages, based on initial explorations, to prepare for further stages down the project pipeline.
+- ```2_processor.ipynb```: Cleans, transforms, and wrangles the compiled NBA datasets based on insights from initial explorations.
 <br/>
 
-3. ```3_explorer.ipynb```: This notebook will employ exploratory mining techniques to study the NBA players, discern statistical patterns and better inform the modeling stage of the project pipeline. **NOTE: Not all visual outputs are pre-loaded. For best visual output and to utilize the interactive toggle-menu for plots, execute this script in a Jupyter notebook (VS-Code does not fully support .ipynb interactive widgets).**
+- ```3_explorer.ipynb```: Performs data mining to identify statistical patterns and inform the modeling stage. **NOTE: Not all visual outputs are pre-loaded. For best visual output and to utilize the interactive toggle-menu for plots, execute this script in a Jupyter notebook.**
 <br/>
 
-4. ```4_modeler.py```: This notebook will conduct any remaining pre-processing steps and will execute unsupervised and supervised ML techniques on the players' statistical data.
+- ```4_modeler.py```: Executes any remaining pre-processing steps and applies unsupervised and supervised ML techniques to the players' statistical data.
 <br/>
 
-5. ```5_visualizer.py```: This script can be executed via command line to launch a preliminary dashboard application to assess lineups on their offensive and defensive synergy.
+- ```5_visualizer.py```: Launches a preliminary dashboard application to evaluate lineups on their offensive and defensive synergy.
+<br/>
+
+Utilities: 
+
+- ```hot_streak_finder.py```: Implements a divide-and-conquer algorithm to detect seasonal trends in player performance.
+<br/>
+
+- ```pp_generate_shot_charts```: Generates custom shot-charts based on user-defined settings in the web app.
+<br/>
+
+#### *More tools coming soon!*
+<br/>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-## Acknowledgments
 
-Data Science Capstone | Ritchie School of Engineering & Computer Science | University of Denver
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[issues-shield]: https://img.shields.io/github/issues/rc-9/NBA_Lineup_Evaluator.svg?style=for-the-badge
-[issues-url]: https://github.com/rc-9/NBA_Lineup_Evaluator/issues
+[issues-shield]: https://img.shields.io/github/issues/rc-9/SmartGM.svg?style=for-the-badge
+[issues-url]: https://github.com/rc-9/SmartGM/issues
 
 
 
