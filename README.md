@@ -41,12 +41,14 @@ Analytics has transformed sports, with teams and fans constantly seeking new way
 <br/>
 <br/>
 
-#### Interactive Web-App Snapshots:
+### Interactive Web App Snapshots:
 
 
 ![Webapp](utils/webapp.png)
 
 <br/>
+
+A full-fledge analytics suite is currently in development. Here is a sneak peak:
 
 ![giannis](utils/giannis.png)
 
