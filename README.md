@@ -47,8 +47,7 @@ Analytics has transformed sports, with teams and fans constantly seeking new way
 ![Webapp](utils/webapp.png)
 
 <br/>
-
-A full-fledge analytics suite is currently in development. Here is a sneak peak:
+A full-fledged analytics suite is currently in development. Here is a sneak peak:
 
 ![giannis](utils/giannis.png)
 
