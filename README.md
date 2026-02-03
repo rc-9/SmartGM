@@ -33,7 +33,7 @@
 
 ## Project Overview
 
-Analytics has transformed sports, with teams and fans constantly seeking new ways to quantify player impact. SmartGM is an end-to-end sports analytics pipeline that extracts and validates multi-source tracking data, engineers novel performance metrics, and executes unsupervised clustering to redefine traditional player positions using modern on-court archetypes. These refined “sub-positions” are then combined with lineup data to identify which player combinations drive success on the court. The result is an ML-powered decision-support tool that helps coaches optimize lineups, assists scouts in forecasting player development, and supports front offices in evaluating roster construction.
+Analytics has transformed sports, with teams and fans constantly seeking new ways to quantify player impact. SmartGM is an end-to-end pipeline that extracts and validates multi-source tracking data, engineers novel performance metrics, and executes unsupervised clustering to redefine traditional player positions using modern on-court archetypes. These refined “sub-positions” are then combined with lineup data to identify which player combinations drive success on the court. The result is an ML-powered decision-support tool that helps coaches optimize lineups, assists scouts in forecasting player development, and supports front offices in evaluating roster construction.
 
 <br/>
 
