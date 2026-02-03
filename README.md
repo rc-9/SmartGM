@@ -5,7 +5,7 @@
 <h1 align="center">SmartGM</h1>
 <h3 align="center">Basketball Operations Intelligence Platform</h3>
   <p align="center">
-    Romith Challa
+    - Romith Challa -
     <br />
     <br />
     <a href="https://github.com/rc-9/SmartGM/issues">Report Bug</a>
@@ -15,8 +15,9 @@
 </div>
 
 
- <img src="utils/z3.png" width="400">
-
+<p align="center">
+  <img src="utils/z3.png" width="400">
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
