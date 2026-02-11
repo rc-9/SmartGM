@@ -50,7 +50,7 @@ Analytics has transformed sports, with teams and fans constantly seeking new way
 A full-fledged analytics suite is currently in development. Here is a sneak peak:
 <br/>
 
-![giannis](utils/kon.png)
+![kon](utils/kon.png)
 
 
 <br/>
